@@ -486,7 +486,7 @@ render:
                         mov             eax, [ypos]
                         cmp             eax, DWORD [ebp-4]
                         jne             print_board
-                                ; if both were equal, print the player
+                                ; if both were equal, print the ball
                                 push    BALL_CHAR
                                 jmp             print_end
                         print_board:
